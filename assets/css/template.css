@@ -13513,7 +13513,6 @@ img.img-shadow,
     .header .extra-nav > ul > li > a.off-canvas-open,
     .header.header-small .extra-nav > ul > li > a.off-canvas-open,
     .header.header-transparent .extra-nav > ul > li > a.off-canvas-open {
-        display: none;
     }
 
     .header .inner-nav > ul > li > a::after,
