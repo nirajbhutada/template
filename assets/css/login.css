@@ -52,6 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfd8dc', end
   position: relative;
   float: left;
    width: 100%;
+   top: 200px;
 }
 
 .cont_login {
