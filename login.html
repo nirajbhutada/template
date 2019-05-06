@@ -16,6 +16,9 @@
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <!-- Plugins-->
         <link href="assets/css/plugins.min.css" rel="stylesheet">
+        
+        <!-- <link href="assets/css/libs/bootstrap.optimize.min.css" rel="stylesheet"> -->
+
         <!-- Template core CSS-->
         <link href="assets/css/template.css" rel="stylesheet">
         <link href="assets/css/login.css" rel="stylesheet">
@@ -42,68 +45,78 @@
             </div>
         </header>
         <!-- Header end-->
+        <div class='clearfix'></div>
+        <div class='login-form-container'>
+          <div id="login_box" class='login-form'>
+              <div id="block-system-main" class="block block-system block-odd first clearfix">
+                <div class="block-inner">
 
-        <div class="wrapper">
-            <div class="cotn_principal">
-            <div class="cont_centrar">
+                          
 
-              <div class="cont_login">
-            <div class="cont_info_log_sign_up">
-                  <div class="col_md_login">
-            <div class="cont_ba_opcitiy">
-                    
-                    <h2>LOGIN</h2>  
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
-              <button class="btn_login">LOGIN</button>
+                  <div class="content">
+                    <form autocomplete="off" id="user-login" accept-charset="UTF-8" class="hideSubmitButton-processed"><div><input type="hidden" name="form_build_id" value="form-pxOZqJJcGM6QLP_5NVgoBtrcTO7DH-4H29IMpitZB-E">
+              <input type="hidden" name="form_id" value="user_login">
+              <div class="form-item form-type-textfield form-item-name">
+                <label for="edit-name">E-mail/Mobile <span class="form-required" title="This field is required.">*</span></label>
+               <input placeholder="E-mail/Mobile" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required">
+              <div class="description">Enter your e-mail address or username.</div>
               </div>
-              </div>
-            <div class="col_md_sign_up">
-            <div class="cont_ba_opcitiy">
-              <h2>SIGN UP</h2>
-
-              
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-              <button class="btn_sign_up">SIGN UP</button>
-            </div>
-              </div>
-                   </div>
-
-                
-                <div class="cont_back_info">
-                   <div class="cont_img_back_grey">
-                   <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
-                   </div>
-                   
-                </div>
-            <div class="cont_forms" >
-                <div class="cont_img_back_">
-                   <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
-                   </div>
-             <div class="cont_form_login">
-            <a href="#" class='login-back-btn'><i class="material-icons">&#xE5C4;</i></a>
-               <h2>LOGIN</h2>
-             <input type="text" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button id='main-login-btn' class="btn_login">LOGIN</button>
-              </div>
-              
-               <div class="cont_form_sign_up">
-            <a href="#" class='login-back-btn' onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
-                 <h2>SIGN UP</h2>
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="User" />
-            <input type="password" placeholder="Password" />
-            <input type="password" placeholder="Confirm Password" />
-            <button class="btn_sign_up">SIGN UP</button>
-
-              </div>
+                  <div class="form-item form-type-password form-item-pass">
+                    <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+                   <input placeholder="Password" type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required">
+                  <div class="description">Enter the password that accompanies your e-mail.</div>
+                  </div>
+              <div class="forgot_link"><a href="/user/password/?destination=oauth2/authorize&amp;r=fed7b0c8cb83914f55d3a7800c312585">Forgot your password?</a></div><div class="form-actions form-wrapper" id="edit-actions">
+              <a id="edit-submit" class="form-submit" href="studyPlus.html">Log In With Password</a>
+              </div></div></form>    </div>
 
                 </div>
-                
               </div>
-             </div>
-            </div>
+
+
+              <div id="block-pwdless_login-pwdless_login_block" class="block block-pwdless-login block-even last clearfix">
+                <div class="block-inner">
+
+                          
+
+                  <div class="content">
+                   <form autocomplete="off" id="pwdless-login-login" accept-charset="UTF-8" class="hideSubmitButton-processed"><div><div class="form-item form-type-textfield form-item-name">
+                <label for="edit-name--2">E-mail/Mobile (Log In With OTP) <span class="form-required" title="This field is required.">*</span></label>
+
+               <input placeholder="E-mail/Mobile  (Log In With OTP)" type="text" id="edit-name--2" name="name" value="" size="60" maxlength="128" class="form-text required">
+              </div>
+              <input type="hidden" name="form_build_id" value="form-TwPmr1lN00FKvYwIV08wFkVrQfzQZU85Z4E1J_KI5kU">
+              <input type="hidden" name="form_id" value="pwdless_login_login">
+              <div class="form-actions form-wrapper" id="edit-actions--2">
+                <a id="edit-submit--2" class="form-submit" href="studyPlus.html">Login with OTP</a>
+              </div></div></form>
+
+              <div class="hybridauth-widget-wrapper"><div class="item-list"><ul class="hybridauth-widget">
+                <li class="first">
+                  <a href="javascript:void(0);" class="hybridauth-widget-provider hybridauth-onclick-current hybridauth-onclick-processed hybridauth-provider-processed" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=oauth2/authorize&amp;destination_error=oauth2/authorize" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-hybridauth-32 hybridauth-facebook hybridauth-facebook-hybridauth-32" title="Facebook"></span></a>
+                </li>
+              
+              <li>
+                <a href="javascript:void(0);" class="hybridauth-widget-provider hybridauth-onclick-current hybridauth-onclick-processed hybridauth-provider-processed" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=oauth2/authorize&amp;destination_error=oauth2/authorize" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-hybridauth-32 hybridauth-google hybridauth-google-hybridauth-32" title="Google"></span></a>
+              </li>
+              
+              <li>
+                <a href="javascript:void(0);" class="hybridauth-widget-provider hybridauth-onclick-current hybridauth-onclick-processed hybridauth-provider-processed" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=oauth2/authorize&amp;destination_error=oauth2/authorize" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-hybridauth-32 hybridauth-twitter hybridauth-twitter-hybridauth-32" title="Twitter"></span></a>
+              </li>
+              
+              <li>
+                <a href="javascript:void(0);" class="hybridauth-widget-provider hybridauth-onclick-current hybridauth-onclick-processed hybridauth-provider-processed" rel="nofollow" data-hybridauth-provider="LinkedIn" data-hybridauth-url="/hybridauth/window/LinkedIn?destination=oauth2/authorize&amp;destination_error=oauth2/authorize" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon linkedin hybridauth-icon-hybridauth-32 hybridauth-linkedin hybridauth-linkedin-hybridauth-32" title="LinkedIn"></span></a>
+              </li>
+              
+              <li class="last">
+                <a href="javascript:void(0);" class="hybridauth-widget-provider hybridauth-onclick-current hybridauth-onclick-processed hybridauth-provider-processed" rel="nofollow" data-hybridauth-provider="GitHub" data-hybridauth-url="/hybridauth/window/GitHub?destination=oauth2/authorize&amp;destination_error=oauth2/authorize" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon github hybridauth-icon-hybridauth-32 hybridauth-github hybridauth-github-hybridauth-32" title="GitHub"></span></a>
+              </li>
+              </ul></div></div>    </div>
+
+                </div>
+              </div>
+
+                 </div>
         </div>
         <!-- Scripts-->
         <script src="assets/js/custom/jquery.min.js"></script>
